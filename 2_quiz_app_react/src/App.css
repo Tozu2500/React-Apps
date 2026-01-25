@@ -48,3 +48,28 @@ body.dark-theme {
   align-items: center;
   justify-content: center;
 }
+
+.dark-theme .theme-toggle {
+  background: #2d3748;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1) rotate(20deg);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Quiz Intro theme */
+.quiz-intro {
+  background: white;
+  border-radius: 20px;
+  padding: 60px 40px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  animation: slideIn 0.5s ease-out;
+}
+
+.dark-theme .quiz-intro {
+  background: #2d3748;
+  color: #e2e8f0;
+}
+
